@@ -1,20 +1,31 @@
-Project Title: AI Voice Assistant Using Python : Jarvis
+# 🤖 Jarvis - AI Voice Assistant Using Python
 
-Project Description:
+Jarvis is a smart **AI-integrated voice assistant** developed in Python. It listens for voice commands and performs various tasks such as opening websites, playing music, and generating AI-based responses using OpenAI's GPT model.
 
-This project involves building an AI-integrated voice assistant using Python that can interpret and execute voice commands from the user. The assistant leverages speech recognition
+---
 
-Key functionalities include:
+## 🔍 Features
 
-1. Voice Command Recognition: The system uses libraries like `SpeechRecognition` and `PyAudio` to capture voice input and convert it to text.
-2. Task Execution: Based on the interpreted command, the assistant can perform various tasks such as:
-   Searching the web
-   Managing system operations (open apps, play music, etc.)
-   Providing real-time responses using AI module (e.g., OpenAI)
-   Text-to-Speech Output: Responds using `pyttsx3` for spoken output.
+- 🎤 Voice recognition using your microphone
+- 🧠 AI-powered conversation via OpenAI (GPT-3.5)
+- 🌐 Web automation: open sites like Google, YouTube, Facebook, LinkedIn
+- 🎶 Play songs using a custom `musicLibrary` (user-defined)
+- 🗣️ Text-to-speech response using `pyttsx3`
+- 🤖 Wake-word detection (say **"Jarvis"** to activate)
 
-Tech Stack:
+---
 
-  1. Python
-   2. Libraries: `SpeechRecognition`, `PyAudio`, `pyttsx3`.
-   3. Integration with OpenAI API or other AI models for advanced conversational capabilities
+## 🛠️ Technologies Used
+
+- Python 3.x
+- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
+- [PyAudio](https://pypi.org/project/PyAudio/)
+- [pyttsx3](https://pypi.org/project/pyttsx3/)
+- [OpenAI API](https://platform.openai.com/)
+- Built-in `webbrowser` module
+- Custom `musicLibrary` dictionary
+
+---
+
+## 📁 Project Structure
+
